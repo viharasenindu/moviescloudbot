@@ -13,7 +13,7 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/subinps/Media-Search-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/viharasenindu22/moviescloudbot)
 ### Hard Way
 
 ```bash
@@ -40,8 +40,8 @@ Check [`sample_info.py`](sample_info.py) before editing [`info.py`](info.py) fil
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/dsuTn4qV2GA)
-* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/dsuTn4qV2GA)
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). 
+* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). 
 
 ### Optional Variables
 * `OMDB_API_KEY`: OMBD_API_KEY to generate imdb poster for filter results.Get it from [omdbapi.com](http://www.omdbapi.com/apikey.aspx)
@@ -83,10 +83,6 @@ logger - Get log file
 * Original [Repo](https://github.com/Mahesh0253/Media-Search-bot)
 
 
-## Support
-Contact Me On [Telegram](https://t.me/subinps_bot)
-
-[Update Channel](https://t.me/subin_works)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
