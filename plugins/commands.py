@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Sinhala Films', url='https://t.me/SinhalaFilms_Lk')
+                        InlineKeyboardButton('Search Movies🔎', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('Updates Channel🔔', url='https://t.me/SfzProjectsSL')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,8 +99,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Sinhala Films", url="https://t.me/SinhalaFilms_Lk")
+                        InlineKeyboardButton("Search Movies🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("Updates Channel🔔", url="https://t.me/SfzProjectsSL")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -195,4 +195,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Update Channel', url='SFCryptoUpdates'),
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/SFCryptoUpdates'>Click here</a>\nUpdate Channel : <a href='https://t.me/SFCryptoUpdates'>SF Updates</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/SfzProjectsSL'>Click here</a>\nUpdates Channel🔔 : <a href='https://t.me/SfzProjectsSL'>SF Updates</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
