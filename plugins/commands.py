@@ -18,7 +18,7 @@ async def start(bot, cmd):
                 if user.status == "kicked":
                     await bot.send_message(
                         chat_id=cmd.from_user.id,
-                        text="Sorry Sir, You are Banned to use me.",
+                        text="Sorry Sir, You are Banned to use me🥲.",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122')
+                        InlineKeyboardButton('Sinhala Films', url='https://t.me/SinhalaFilms_Lk')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("Sinhala Films", url="https://t.me/SinhalaFilms_Lk")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+            InlineKeyboardButton('Update Channel', url='SFCryptoUpdates'),
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/SFCryptoUpdates'>Click here</a>\nUpdate Channel : <a href='https://t.me/SFCryptoUpdates'>SF Updates</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
