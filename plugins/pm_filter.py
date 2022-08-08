@@ -292,7 +292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                
                 ]
                 ]
-            await query.message.edit(text="Source Code : <a href='https://t.me/SfzProjectsSL'>Click here</a>\nUpdates Channel🔔 : <a href='https://t.me/SfzProjectsSL'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="Source Code : <a href='https://t.me/SfzProjectsSL'>Click here</a>\nUpdates Channel🔔 : <a href='https://t.me/SfzProjectsSL'>SFZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -369,4 +369,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.message.delete()
                 
     else:
-        await query.answer("Isn't it more delicious?",show_alert=True)
+        await query.answer("Fuck 😹",show_alert=True)
