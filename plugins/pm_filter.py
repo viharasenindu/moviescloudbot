@@ -288,11 +288,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Updates Channel🔔', url='https://t.me/SfzProjectsSL'),
+                    InlineKeyboardButton('Updates Channel🔔', url='https://t.me/Us_Crypto_News'),
                
                 ]
                 ]
-            await query.message.edit(text="Source Code : <a href='https://t.me/SfzProjectsSL'>Click here</a>\nUpdates Channel🔔 : <a href='https://t.me/SfzProjectsSL'>SFZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="Grypton Projects : <a href='https://t.me/GryptonProjects'>Click here</a>\nUpdates Channel🔔 : <a href='https://t.me/Us_Crypto_News'>SFZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -313,8 +313,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Bots Updates Channel', url='https://t.me/SfzProjectsSL'),
-                        InlineKeyboardButton('Updates Channel🔔', url='https://t.me/SfzProjectsSL')
+                        InlineKeyboardButton('Bots Updates Channel', url='https://t.me/GryptonProjects'),
+                        InlineKeyboardButton('Updates Channel🔔', url='https://t.me/Us_Crypto_News')
                     ]
                     ]
                 
@@ -345,8 +345,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Updates Channel🔔', url='https://t.me/SfzProjectsSL'),
-                        InlineKeyboardButton('Updates Channel🔔l', url='https://t.me/SfzProjectsSL')
+                        InlineKeyboardButton('Updates Channel🔔', url='https://t.me/Us_Crypto_News'),
+                        InlineKeyboardButton('Updates Channel🔔l', url='https://t.me/Us_Crypto_News')
                     ]
                     ]
                 
