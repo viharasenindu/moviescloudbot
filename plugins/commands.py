@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search Movies🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Updates Channel🔔', url='https://t.me/SfzProjectsSL')
+                        InlineKeyboardButton('Updates Channel🔔', url='https://t.me/Us_Crypto_News')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Movies🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Updates Channel🔔", url="https://t.me/SfzProjectsSL")
+                        InlineKeyboardButton("Updates Channel🔔", url="https://t.me/Us_Crypto_News")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,7 +192,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='SfzProjectsSL'),
+            InlineKeyboardButton('Update Channel😉', url='Us_Crypto_News'),
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/SfzProjectsSL'>Click here</a>\nUpdates Channel🔔 : <a href='https://t.me/SfzProjectsSL'>SFZ Updates</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nGrypton Projects : <a href='https://t.me/GryptonProjects'>Click here</a>\nUpdates Channel🔔 : <a href='https://t.me/Us_Crypto_News'>Crypto News</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
