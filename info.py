@@ -26,6 +26,7 @@ AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "").split()]
 DATABASE_URI = 'mongodb+srv://vihara:vihara@cluster0.ymxgu4s.mongodb.net/?retryWrites=true&w=majority'
 DATABASE_NAME = 'mangodb'
 COLLECTION_NAME = 'Telegram_files'
+OMDB_API_KEY = c78ed305
 
 # Messages
 default_start_msg = """
