@@ -23,8 +23,7 @@ AUTH_CHANNEL = -1001552415260
 AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "").split()]
 
 # MongoDB information
-DATABASE_URI = 'mongodb+srv://mihiran:nithya98@D@cluster0.ejhjaqc.mongodb.net/?retryWrites=true&w=majority)'
-DATABASE_URI = ''
+DATABASE_URI = 'mongodb+srv://mihiran:nithya98@D@cluster0.ejhjaqc.mongodb.net/?retryWrites=true&w=majority'
 DATABASE_NAME = 'mangodb'
 COLLECTION_NAME = 'Telegram_files'
 OMDB_API_KEY = c78ed305
